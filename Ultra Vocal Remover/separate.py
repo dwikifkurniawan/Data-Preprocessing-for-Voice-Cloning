@@ -8,8 +8,6 @@ from pathlib import Path
 from argparse import ArgumentParser
 from tqdm import tqdm
 
-# https://github.com/seanghay/uvr-mdx-infer
-# python separate.py audio/test.wav -m model/UVR-MDX-NET-Inst_HQ_3.onnx -f 3072
 
 class ConvTDFNet:
     def __init__(self, target_name, L, dim_f, dim_t, n_fft, hop=1024):
