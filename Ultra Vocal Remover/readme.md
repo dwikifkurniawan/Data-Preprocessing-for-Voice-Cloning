@@ -1,7 +1,11 @@
 Ultimate Vocal Remover Inference CLI
 
 ```shell
-python separate.py sample_audio.wav -m UVR-MDX-NET-Inst_Main.onnx
+For 50.3 MB model :
+  python separate.py sample_audio.wav -m UVR-MDX-NET-Inst_Main.onnx
+
+For 63.7 MB model :
+  python separate.py test.wav -m Kim_Vocal_2.onnx -f 3072
 ```
 
 ## Available options
@@ -34,7 +38,7 @@ options:
 https://github.com/TRvlvr/model_repo/releases/tag/all_public_uvr_models)
 
 ### Recommended models
-
+- `Kim_Vocal_2.onnx`
 - `UVR-MDX-NET-Inst_Main.onnx`
 - `UVR-MDX-NET-Inst_HQ_3.onnx`
 - `UVR_MDXNET_KARA_2.onnx`
