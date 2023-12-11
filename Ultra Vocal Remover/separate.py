@@ -1,3 +1,5 @@
+#Dwiki ganteng
+
 import soundfile as sf
 import torch 
 import os 
